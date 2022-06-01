@@ -1,0 +1,22 @@
+#usda 1.0
+
+def Xform "hello"
+{
+    def Sphere "ball1"
+    {
+        color3f[] primvars:displayColor = [(0, 0, 1)]
+        double radius = 1
+        float3 xformOp:translate = (-1.5, 0, 0)
+        uniform token[] xformOpOrder = [ "xformOp:translate"]
+    }
+
+    def Sphere "ball2"
+    {
+        color3f[] primvars:displayColor = [(1, 0, 0)]
+        double radius = 1
+        float3 xformOp:translate = (1.5, 0, 0)
+        uniform token[] xformOpOrder = [ "xformOp:translate"]
+    }
+
+}
+
