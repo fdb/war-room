@@ -35,23 +35,26 @@ function generatePlane(frame, rect) {
     return;
   }
 
-  let [frameX, frameY] = [
+  let [frameX, frameY, frameWidth] = [
     frame.absoluteBoundingBox.x,
     frame.absoluteBoundingBox.y,
+    frame.absoluteBoundingBox.width,
   ];
   let x = (rect.absoluteBoundingBox.x - frameX) / 10;
   let y = (rect.absoluteBoundingBox.y - frameY) / 10;
   let width = rect.absoluteBoundingBox.width / 10;
   let height = rect.absoluteBoundingBox.height / 10;
+  let angle = (x / width) * 360;
 
   let figmaName = convertFigmaName(rect.name);
   let materialName = `Mat_${figmaName}`;
   rect.materialName = materialName;
   let usda = `def Xform "${figmaName}"
   {
-      float3 xformOp:translate = (${x}, ${-y}, 0)
+      float3 xformOp:rotateXYZ = (0, ${angle}, 0)
+      float3 xformOp:translate = (0, 0, 20)
       float3 xformOp:scale = (${width}, ${height}, 1)
-      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
@@ -80,15 +83,15 @@ function generateMaterial(documentId, frame, rect) {
   if (!imageFill) return;
   const imageRef = imageFill.imageRef;
   let imageFilename;
-  if (existsSync(`./assets/${documentId}/${imageRef}.jpg`)) {
-    imageFilename = `./assets/${documentId}/${imageRef}.jpg`;
-  } else if (existsSync(`./assets/${documentId}/${imageRef}.png`)) {
-    imageFilename = `./assets/${documentId}/${imageRef}.png`;
+  if (existsSync(`./_export/images/${imageRef}.jpg`)) {
+    imageFilename = `images/${imageRef}.jpg`;
+  } else if (existsSync(`./_export/images/${imageRef}.png`)) {
+    imageFilename = `images/${imageRef}.png`;
   } else {
     console.log(imageFill);
     throw new Error(`Image ${imageRef} not found`);
   }
-  console.log(imageFilename);
+  // console.log(imageFilename);
 
   let usda = `
   def Material "${materialName}"
@@ -146,7 +149,7 @@ async function main() {
   }
   usda += `}\n`;
 
-  await fs.writeFile("./blob.usda", usda);
+  await fs.writeFile("./_export/blob.usda", usda);
 }
 
 main();
