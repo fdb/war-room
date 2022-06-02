@@ -51,10 +51,10 @@ function generatePlane(frame, rect) {
   rect.materialName = materialName;
   let usda = `def Xform "${figmaName}"
   {
-      float3 xformOp:rotateXYZ = (0, ${angle}, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (${x}, ${y}, 0)
       float3 xformOp:scale = (${width}, ${height}, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {

@@ -1,18 +1,18 @@
 #usda 1.0
 
-def Xform "Rectangle_2_3598"
+def Xform "Rectangle_2_3868"
   {
-      float3 xformOp:rotateXYZ = (0, 754.8387096774193, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (26, 1.2, 0)
       float3 xformOp:scale = (12.4, 6.9, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_Rectangle_2_3598>
+          rel material:binding = </_materials/Mat_Rectangle_2_3868>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -23,19 +23,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_bZZp1PmHI0E_8048"
+  def Xform "unsplash_bZZp1PmHI0E_403"
   {
-      float3 xformOp:rotateXYZ = (0, 2189.3023255813955, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (52.3, 3.1, 0)
       float3 xformOp:scale = (8.6, 5.9, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_bZZp1PmHI0E_8048>
+          rel material:binding = </_materials/Mat_unsplash_bZZp1PmHI0E_403>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -46,19 +46,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_bZZp1PmHI0E_6598"
+  def Xform "unsplash_bZZp1PmHI0E_3333"
   {
-      float3 xformOp:rotateXYZ = (0, 2189.3023255813955, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (52.3, 3.1, 0)
       float3 xformOp:scale = (8.6, 5.9, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_bZZp1PmHI0E_6598>
+          rel material:binding = </_materials/Mat_unsplash_bZZp1PmHI0E_3333>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -69,19 +69,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_62vi3TG5EDg_6980"
+  def Xform "unsplash_62vi3TG5EDg_742"
   {
-      float3 xformOp:rotateXYZ = (0, 1778.64406779661, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (58.3, 7.2, 0)
       float3 xformOp:scale = (11.8, 7.5, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_62vi3TG5EDg_6980>
+          rel material:binding = </_materials/Mat_unsplash_62vi3TG5EDg_742>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -92,19 +92,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_ndN00KmbJ1c_922"
+  def Xform "unsplash_ndN00KmbJ1c_4274"
   {
-      float3 xformOp:rotateXYZ = (0, 3235.8139534883726, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (77.3, 5.3, 0)
       float3 xformOp:scale = (8.6, 5.7, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_ndN00KmbJ1c_922>
+          rel material:binding = </_materials/Mat_unsplash_ndN00KmbJ1c_4274>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -115,19 +115,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_TFyi0QOx08c_7570"
+  def Xform "unsplash_TFyi0QOx08c_7943"
   {
-      float3 xformOp:rotateXYZ = (0, 2984.6511627906975, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (71.3, 9, 0)
       float3 xformOp:scale = (8.6, 5.7, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_TFyi0QOx08c_7570>
+          rel material:binding = </_materials/Mat_unsplash_TFyi0QOx08c_7943>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -138,19 +138,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_vUNQaTtZeOo_7205"
+  def Xform "unsplash_vUNQaTtZeOo_6783"
   {
-      float3 xformOp:rotateXYZ = (0, 1640.9302325581396, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (39.2, 7.2, 0)
       float3 xformOp:scale = (8.6, 5.7, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_vUNQaTtZeOo_7205>
+          rel material:binding = </_materials/Mat_unsplash_vUNQaTtZeOo_6783>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -161,19 +161,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_xUUZcpQlqpM_6743"
+  def Xform "unsplash_xUUZcpQlqpM_3856"
   {
-      float3 xformOp:rotateXYZ = (0, 25.899280575539567, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (1, 1.1, 0)
       float3 xformOp:scale = (13.9, 9.2, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_xUUZcpQlqpM_6743>
+          rel material:binding = </_materials/Mat_unsplash_xUUZcpQlqpM_3856>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -184,19 +184,19 @@ def Xform "Rectangle_2_3598"
           uniform token subdivisionScheme = "none"
       }
   }
-  def Xform "unsplash_K_Na5gCmh38_6733"
+  def Xform "unsplash_K_Na5gCmh38_8227"
   {
-      float3 xformOp:rotateXYZ = (0, 619.3548387096773, 0)
-      float3 xformOp:translate = (0, 0, 20)
+      float3 xformOp:rotateXYZ = (0, 0, 0)
+      float3 xformOp:translate = (16, 3.1, 0)
       float3 xformOp:scale = (9.3, 12.5, 1)
-      uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate", "xformOp:scale"]
+      uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
   
       def Mesh "Plane"
       {
           uniform bool doubleSided = 1
           int[] faceVertexCounts = [4]
           int[] faceVertexIndices = [0, 1, 3, 2]
-          rel material:binding = </_materials/Mat_unsplash_K_Na5gCmh38_6733>
+          rel material:binding = </_materials/Mat_unsplash_K_Na5gCmh38_8227>
           normal3f[] normals = [(0, 0, 1), (0, 0, 1), (0, 0, 1), (0, 0, 1)] (
               interpolation = "faceVarying"
           )
@@ -211,16 +211,16 @@ def Xform "Rectangle_2_3598"
 def "_materials"
 {
 
-  def Material "Mat_Rectangle_2_3598"
+  def Material "Mat_Rectangle_2_3868"
   {
-    token outputs:surface.connect = </_materials/Mat_Rectangle_2_3598/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_Rectangle_2_3868/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_Rectangle_2_3598/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_Rectangle_2_3868/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -229,7 +229,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/9ed823f1c2c75c7a7e51a62309e53baec4bda07f.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_Rectangle_2_3598/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_Rectangle_2_3868/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -243,16 +243,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_bZZp1PmHI0E_8048"
+  def Material "Mat_unsplash_bZZp1PmHI0E_403"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_8048/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_403/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_8048/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_403/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -261,7 +261,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/ee82747b4f18b717208bd704dd0494778b732893.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_8048/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_403/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -275,16 +275,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_bZZp1PmHI0E_6598"
+  def Material "Mat_unsplash_bZZp1PmHI0E_3333"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_6598/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_3333/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_6598/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_3333/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -293,7 +293,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/ee82747b4f18b717208bd704dd0494778b732893.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_6598/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_bZZp1PmHI0E_3333/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -307,16 +307,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_62vi3TG5EDg_6980"
+  def Material "Mat_unsplash_62vi3TG5EDg_742"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_62vi3TG5EDg_6980/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_62vi3TG5EDg_742/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_62vi3TG5EDg_6980/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_62vi3TG5EDg_742/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -325,7 +325,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/a304c07967393c63082b6675a80d8e0f6d08f6b6.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_62vi3TG5EDg_6980/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_62vi3TG5EDg_742/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -339,16 +339,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_ndN00KmbJ1c_922"
+  def Material "Mat_unsplash_ndN00KmbJ1c_4274"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_ndN00KmbJ1c_922/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_ndN00KmbJ1c_4274/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_ndN00KmbJ1c_922/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_ndN00KmbJ1c_4274/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -357,7 +357,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/45108d5c43767783cf66fd9d47fc0a951eb8e0a1.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_ndN00KmbJ1c_922/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_ndN00KmbJ1c_4274/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -371,16 +371,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_TFyi0QOx08c_7570"
+  def Material "Mat_unsplash_TFyi0QOx08c_7943"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_TFyi0QOx08c_7570/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_TFyi0QOx08c_7943/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_TFyi0QOx08c_7570/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_TFyi0QOx08c_7943/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -389,7 +389,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/6e37d7e6eea64605b58c1814e654b2ecd7d7f7f0.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_TFyi0QOx08c_7570/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_TFyi0QOx08c_7943/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -403,16 +403,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_vUNQaTtZeOo_7205"
+  def Material "Mat_unsplash_vUNQaTtZeOo_6783"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_vUNQaTtZeOo_7205/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_vUNQaTtZeOo_6783/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_vUNQaTtZeOo_7205/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_vUNQaTtZeOo_6783/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -421,7 +421,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/f9e25b66d41e7b75ffc553c737ea95c503afe8e1.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_vUNQaTtZeOo_7205/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_vUNQaTtZeOo_6783/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -435,16 +435,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_xUUZcpQlqpM_6743"
+  def Material "Mat_unsplash_xUUZcpQlqpM_3856"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_xUUZcpQlqpM_6743/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_xUUZcpQlqpM_3856/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_xUUZcpQlqpM_6743/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_xUUZcpQlqpM_3856/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -453,7 +453,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/d9c34f37564401fd655617abca9016d599346067.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_xUUZcpQlqpM_6743/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_xUUZcpQlqpM_3856/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
@@ -467,16 +467,16 @@ def "_materials"
     }
   }
 
-  def Material "Mat_unsplash_K_Na5gCmh38_6733"
+  def Material "Mat_unsplash_K_Na5gCmh38_8227"
   {
-    token outputs:surface.connect = </_materials/Mat_unsplash_K_Na5gCmh38_6733/preview/Principled_BSDF.outputs:surface>
+    token outputs:surface.connect = </_materials/Mat_unsplash_K_Na5gCmh38_8227/preview/Principled_BSDF.outputs:surface>
 
     def Scope "preview"
     {
       def Shader "Principled_BSDF"
       {
         uniform token info:id = "UsdPreviewSurface"
-        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_K_Na5gCmh38_6733/preview/Image_Texture.outputs:rgb>
+        float3 inputs:diffuseColor.connect = </_materials/Mat_unsplash_K_Na5gCmh38_8227/preview/Image_Texture.outputs:rgb>
         token outputs:surface
       }
 
@@ -485,7 +485,7 @@ def "_materials"
         uniform token info:id = "UsdUVTexture"
         asset inputs:file = @images/37f627dafebb1e1236a1169405e866a31aa1907e.jpg@
         token inputs:sourceColorSpace = "sRGB"
-        float2 inputs:st.connect = </_materials/Mat_unsplash_K_Na5gCmh38_6733/preview/uvmap.outputs:result>
+        float2 inputs:st.connect = </_materials/Mat_unsplash_K_Na5gCmh38_8227/preview/uvmap.outputs:result>
         float3 outputs:rgb
       }
 
